@@ -1,0 +1,126 @@
+html {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #eee;
+	padding: 0px;
+	margin: 0px; 
+	font-size: 14px;
+	font-family: "Trebuchet MS", "lucida grande", verdana, sans-serif;
+}
+ 
+h1 
+{ 
+	color: #b95959;
+	font-size: 48px;
+	font-family: courier, monospace;
+	line-height: 1;
+}
+ 
+h2 
+{	
+	font-size: 32px;
+	font-family: courier, monospace;
+	color: #5959b9;
+}
+ 
+p{padding-left: 10px;}
+ 
+pre 
+{
+	padding: 10px;
+	background-color: #eee;
+}
+
+img{ border: none;}
+
+
+img.right { float: right; margin-left: 20px; margin-bottom: 10px;}
+
+img.border { border: 1px solid black;}
+
+img.left { float: left; margin-right: 20px; margin-bottom: 10px;}
+
+img.centered 
+{
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+ 
+.centered
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.hr 
+{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-top: 1px solid #ddd;
+}
+
+.mark
+{
+	color: #494949;
+	font-style: italic;
+}
+
+
+#hostinfo
+{
+	margin-top: 20px;
+	text-align: right;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.scode 
+{
+	display: inline; 
+	font-family: monospace;
+}
+
+.note
+{
+    font-style: italic;
+    margin-left: 40px;
+    font-size: 80%;
+}
+
+.timestamp
+{
+    font-family: courier, monospace;
+    background: #eee;
+    color: gray;
+	text-align: center;
+}
+
+.table_text_center td
+{
+	text-align: center;	
+}
+
+.rel-page  
+{ 
+	border: 1px solid black; 
+	background-color: #eee; 
+	text-align: right; 
+	font-size: 16px; 
+	padding:10px; 
+	margin-right:-40px; 
+}
+
+.rel-page A 
+{
+	text-decoration: none; 
+	color: #f00;
+}
+
+img.book-img {
+	background: white;
+}

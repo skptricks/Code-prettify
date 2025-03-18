@@ -1,0 +1,115 @@
+#body {
+	/*margin-bottom: 12px;*/
+}
+
+#content  {
+	padding: 0.5em 2em 2em 2em;
+	color: #696969;
+	background-color: white;
+	line-height: 1.6em;
+}
+
+#container {
+	height: 100%;
+	margin: 0px auto;
+}
+
+#copyright
+{
+	margin-top: 24px;
+	padding: 12px;
+	text-align: right;
+	background: #666;
+	color: white;
+	background: url(menu.png) #666 no-repeat -9999px -9999px; 
+}
+
+#header {
+	background: white;
+	height: 52px;
+	padding: 10px 10px 10px 56px;
+	margin-bottom: 12px;
+	background: url(menu-open.png) white no-repeat -9999px -9999px; 
+}
+
+#header div{
+	height: 52px;
+	background: url(coderazzi.png) white;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.wsmContent {
+	background-color: #eee;
+}
+
+#menu {
+	voice-family: "\"}\"";
+	voice-family:inherit;
+}
+
+
+@media only screen and (min-width: 992px) { 
+
+	#container {
+		max-width: 1000px;
+	}
+
+
+	#menu {
+		float: left;
+		width: 200px;
+		margin-top:195px;
+		line-height:17px;
+	}
+
+	.wsmContent {
+		margin-left: 200px;
+	}
+
+}
+
+@media not screen { 
+
+	#container {
+		width: 100%;
+	}
+
+
+	#menu {
+		display: none;
+	}
+
+
+}
+
+@media only screen and (max-width: 992px) { 
+
+	#container {
+		width: 100%;
+	}
+
+	.navcontainer {
+		display: none;
+	}
+
+	#menu {
+		position: absolute;
+		top: 8px;
+		left: 12px;
+		padding-top: 32px;
+		min-width: 32px;		
+		background: url(menu.png);
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+
+	#menu:hover {
+		background: url(menu-open.png);
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+
+
+}
